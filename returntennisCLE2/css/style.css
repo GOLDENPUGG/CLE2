@@ -1,0 +1,787 @@
+
+
+body {
+    background-color: #32312D ;
+    font-family: "roboto", sans-serif;
+    color: white;
+
+
+
+
+
+
+
+
+
+}
+
+
+.loginBox {
+
+
+    border-radius: 25px;
+    width: 480px;
+    height: 440px;
+    background: #252420;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 140px 70px;
+    box-shadow: 5px 5px 5px #252420;
+
+}
+
+.logo {
+
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    left: calc(40% - 50px);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.loginBox p{
+    margin: 0;
+    padding: 0;
+
+
+
+
+}
+
+.loginBox input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+
+.loginBox input[type="text"], input[type="password"] {
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+
+.loginBox input[type="submit"] {
+
+    border: none;
+    outline: none;
+    height: 50px;
+    background: #FD8924;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+
+
+
+
+}
+
+
+.loginBox input[type="submit"]:hover {
+
+    background-color: #F0C993;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.loginBox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+
+
+.loginBox a:hover {
+    color: #FD8924;
+
+
+}
+
+
+
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #252420;
+    overflow-x: hidden;
+    /*padding-top: 20px 100px;*/
+    padding: 151px 15px;
+}
+
+.sidenav a {
+
+
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 21px 2px;
+
+
+}
+
+.sidenav a:hover {
+    color: black;
+
+    opacity: 0.5;
+}
+
+.main {
+    margin-left: 160px;
+    font-size: 24px;
+
+}
+
+
+.active {
+
+
+
+
+    background-color: #FD8924;
+    border-radius: 10px;
+    width: 90%;
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+.logo1 {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    left: calc(28% - 50px);
+
+
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top:15px;}
+    .sidenav a {font-size: 18px;}
+
+}
+
+
+.logo3 {
+
+    height: 35px;
+
+    float: right;
+
+
+
+
+}
+
+
+
+
+.main h1 {
+
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    padding: 15px 0 0 100px;
+
+
+
+}
+
+
+
+.container {
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-flow: wrap;
+    order: 4;
+
+
+
+
+
+
+
+
+
+
+
+    /*box-shadow: 5px 5px 5px #252420;*/
+
+
+
+
+}
+
+.reserveringFlex {
+
+
+    padding: 300px 12px 0 60px;
+    width: 200px;
+    background-color: #252420;
+    margin: 70px 10px;
+
+
+
+}
+
+
+
+
+.profilepic {
+
+    border-radius: 50%;
+    width: 55px;
+    position: absolute;
+    top: 20px;
+    right: 112px;
+    flex-wrap: wrap;
+
+
+
+}
+
+.profilename {
+
+
+    position: absolute;
+    top: 35px;
+    right: 50px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    flex-wrap: wrap;
+
+
+}
+
+.downprof {
+
+
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    width: 30px;
+    flex-wrap: wrap;
+
+
+
+}
+
+.btn {
+    background-color: #FD8924;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    right: 248px;
+    position: absolute;
+    margin: 0;
+    top: 28px;
+    border-radius: 10px;
+    font-weight: bold;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+
+
+
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #252420;
+    border-radius: 3px;
+    padding: 2em;
+    margin-right: 17em;
+    margin-left: 9em;
+    /* justify-content: center; */
+
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+.inputform {
+    display: flex;
+    flex-wrap: wrap;
+}
+.inputform > label {
+    margin-right: 1em;
+    padding: 0;
+}
+.form1 input,
+.form1 select {
+
+    flex: 6;
+    padding: 0.5em;
+    margin-bottom: 1em;
+
+}
+.form1 button {
+    padding: 12px;
+    background: #FD8924;
+    color: white;
+    border: 0;
+    position: absolute;
+    top: 540px;
+    right: 363px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 170px;
+    flex-wrap: wrap;
+}
+.form1 fieldset {
+    border: 0;
+}
+
+
+
+
+
+
+
+/* Float four columns side by side */
+.columnlist {
+    float: left;
+    width: 30%;
+    padding: 4em
+
+
+}
+
+/* Remove extra left and right margins, due to padding */
+.rowlist {
+    flex-grow: 1;
+
+}
+
+
+/* Clear floats after the columns */
+.rowlist:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .columnlist {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #252420 ;
+    margin-bottom: 2em;
+
+}
+
+
+
+
+
+
+.signupBox {
+
+
+    border-radius: 25px;
+    width: 480px;
+    height: 624px;
+    background: #252420;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 140px 70px;
+    box-shadow: 5px 5px 5px #252420;
+
+}
+
+.logo {
+
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    left: calc(40% - 50px);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.signupBox p{
+    margin: 0;
+    padding: 0;
+
+
+
+
+}
+
+.signupBox input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+
+.signupBox input[type="text"], input[type="password"] {
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+
+.signupBox input[type="submit"] {
+
+    border: none;
+    outline: none;
+    height: 50px;
+    background: #FD8924;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+
+
+
+
+}
+
+
+.signupBox input[type="submit"]:hover {
+
+    background-color: #F0C993;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.signupBox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+
+
+.signupBox a:hover {
+    color: #FD8924;
+
+
+}
+
+
+
+
+
+.editstyle {
+
+    border-radius: 25px;
+    width: 486px;
+    height: 684px;
+    background: #252420;
+    top: 51%;
+    left: 54%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    padding: 3px 58px;
+    box-shadow: 5px 5px 5px #252420;
+}
+
+.logo {
+
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    left: calc(40% - 50px);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.editstyle p{
+    margin: 0;
+    padding: 0;
+
+
+
+
+}
+
+.editstyle input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+
+.editstyle input[type="text"], input[type="password"] {
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+
+.editstyle input[type="submit"] {
+
+    border: none;
+    outline: none;
+    height: 53px;
+    height: 50px;
+    width: 230px;
+    background: #FD8924;
+    color: #fff;
+    font-size: 26px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+
+
+
+
+}
+
+
+.editstyle input[type="submit"]:hover {
+
+    background-color: #F0C993;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.editstyle a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+
+
+.editstyle a:hover {
+    color: #FD8924;
+
+
+}
+
+
+
+.backlist{
+
+    margin: -1em;
+
+}
+
+
+
+
+
+.deletestyle {
+
+    border-radius: 25px;
+    width: 360px;
+    height: 442px;
+    background: #252420;
+    top: 55%;
+    left: 58%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 3px 58px;
+    box-shadow: 5px 5px 5px #252420;
+}
+
+.logo {
+
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    left: calc(40% - 50px);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.deletestyle p{
+    margin: 1em;
+
+
+}
+
+.deletestyle input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+
+.deletestyle input[type="text"], input[type="password"] {
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+
+.deletestyle input[type="submit"] {
+
+    border: none;
+    outline: none;
+    height: 53px;
+    height: 50px;
+    width: 230px;
+    background: #FD8924;
+    color: #fff;
+    font-size: 26px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+
+
+
+
+}
+
+
+.deletestyle input[type="submit"]:hover {
+
+    background-color: #F0C993;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.deletestyle a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+
+
+.deletestyle a:hover {
+    color: #FD8924;
+
+
+}
